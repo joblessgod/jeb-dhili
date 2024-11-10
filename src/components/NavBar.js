@@ -10,7 +10,7 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
-import { ModeToggle } from "./modeToggle";
+import { ModeToggle } from "./theme-btn";
 
 const NavBar = () => {
   return (
@@ -49,7 +49,7 @@ const NavBar = () => {
             </NavigationMenu>
           </li>
           <li>
-            <ModeToggle/>
+            <ModeToggle />
           </li>
         </ul>
       </div>
