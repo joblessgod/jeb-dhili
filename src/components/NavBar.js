@@ -11,6 +11,7 @@ import {
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 import { ModeToggle } from "./theme-btn";
+import { UserButton } from "@clerk/nextjs";
 
 const NavBar = () => {
   return (
@@ -50,6 +51,9 @@ const NavBar = () => {
           </li>
           <li>
             <ModeToggle />
+          </li>
+          <li className="">
+            <UserButton showName />
           </li>
         </ul>
       </div>
